@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    -bg: #D3F7FF;
+    -color-principal: #0070BB;
+    -color-fonte: #13293D;
+}
+
+*{
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: 0.2s linear;
+    color: #13293D;
+    font-family: "Nunito", sans-serif;
+}
+
+@font-face {
+    font-family: "Bogart";
+    src: url("src/Fontes/Bogart-Regular-trial.ttf") format("truetype");
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3F7FF;
+
+    .img_01{
+        position: fixed;
+        top: -7.5rem;
+        right: -5rem;
+        transform: rotate(18deg);
+        height: 300px;
+        z-index: -1;
+    }
+    .img_02{
+        position: fixed;
+        top: 12rem;
+        left: 0;
+        height: 100px;
+        transform: rotate(-18deg);
+        z-index: -1;
+    }
+    .img_03{
+        position: fixed;
+        height: 110px;
+        right: 1rem;
+        top: 38%;
+        transform: rotate(15deg);
+    }
+
+
+
+
+    .layout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .Titulo{
+        font-family: Bogart;
+        span{
+            font-size: 32px;
+            position: relative;
+            left: -50px;
+            top: 45px;
+            font-weight: 500;
+            color: #13293D;
+        }
+        h1{
+            font-size: 60px;
+            color: #13293D;
+        }
+    }
+
+    .Nomes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+        margin-top: -.5rem;
+        h2{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        .entre_nomes{
+            display: flex;
+            align-items: center;
+            gap: .3rem;
+            margin-top: -.49rem;
+            margin-bottom: -.4rem;
+            .linha{
+                height: 1px;
+                width: 50px;
+                background-color: #13293D;
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .data-local{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: .7rem;
+
+        .line_width{
+            height: 1px;
+            width: 100%;
+            background-color: #13293D;
+        }
+
+        .data{
+            display: flex;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            .semana{
+                text-align: end;
+                font-size: 18px;
+            }
+            h3{
+                font-size: 30px;
+            }
+            .mes{
+                text-align: left;
+                font-size: 18px;
+            }
+            .line_height{
+                height: 50px;
+                background-color: #13293D;
+                width: 1px;
+            }
+        }
+        h4{
+            font-size: 14px;
+            margin: 5px;
+        }
+    }
+
+    .frase{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: 1rem;
+    }
+
+    .links{
+        
+    }
+}

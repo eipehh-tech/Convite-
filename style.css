@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+:root {
+  -bg: #D3F7FF;
+  -color-principal: #0070BB;
+  -color-fonte: #13293D;
+}
+
+* {
+  border: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  transition: 0.2s linear;
+  color: #13293D;
+  font-family: "Nunito", sans-serif;
+}
+
+@font-face {
+  font-family: "Bogart";
+  src: url("src/Fontes/Bogart-Regular-trial.ttf") format("truetype");
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D3F7FF;
+}
+body .img_01 {
+  position: fixed;
+  top: -7.5rem;
+  right: -5rem;
+  transform: rotate(18deg);
+  height: 300px;
+  z-index: -1;
+}
+body .img_02 {
+  position: fixed;
+  top: 12rem;
+  left: 0;
+  height: 100px;
+  transform: rotate(-18deg);
+  z-index: -1;
+}
+body .img_03 {
+  position: fixed;
+  height: 110px;
+  right: 1rem;
+  top: 38%;
+  transform: rotate(15deg);
+}
+body .layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+body .Titulo {
+  font-family: Bogart;
+}
+body .Titulo span {
+  font-size: 32px;
+  position: relative;
+  left: -50px;
+  top: 45px;
+  font-weight: 500;
+  color: #13293D;
+}
+body .Titulo h1 {
+  font-size: 60px;
+  color: #13293D;
+}
+body .Nomes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  margin-top: -0.5rem;
+}
+body .Nomes h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+body .Nomes .entre_nomes {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: -0.49rem;
+  margin-bottom: -0.4rem;
+}
+body .Nomes .entre_nomes .linha {
+  height: 1px;
+  width: 50px;
+  background-color: #13293D;
+}
+body .Nomes .entre_nomes span {
+  font-size: 20px;
+}
+body .data-local {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.7rem;
+}
+body .data-local .line_width {
+  height: 1px;
+  width: 100%;
+  background-color: #13293D;
+}
+body .data-local .data {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+body .data-local .data .semana {
+  text-align: end;
+  font-size: 18px;
+}
+body .data-local .data h3 {
+  font-size: 30px;
+}
+body .data-local .data .mes {
+  text-align: left;
+  font-size: 18px;
+}
+body .data-local .data .line_height {
+  height: 50px;
+  background-color: #13293D;
+  width: 1px;
+}
+body .data-local h4 {
+  font-size: 14px;
+  margin: 5px;
+}
+body .frase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 1rem;
+}/*# sourceMappingURL=style.css.map */
